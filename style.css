@@ -15,7 +15,7 @@ body{
 }
 
 .apresentacao{
-    margin: 10% 15%;
+    margin: 10% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -53,5 +53,12 @@ body{
     text-decoration: none;
     color:#000000;
     font-family: 'Montserrat', sans-serif;
+}
 
+.apresentacao__foto_felipe{
+    position: absolute;
+    width: 450px;
+height: 550px;
+left: 900px;
+top: 5px;
 }
