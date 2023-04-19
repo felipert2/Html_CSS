@@ -44,22 +44,25 @@ body {
 .apresentacao__links {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
+    gap: 32px;
 }
 
 .apresentacao__links__link {
     /* background-color: #000000; */
-    width: 280px;
+    
+    border: 2px solid #22D4FD;
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
     color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
-    border: 2px solid #22D4FD;
+    
 }
 
 .apresentacao__links__subtitulo {
