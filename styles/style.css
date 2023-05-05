@@ -141,7 +141,7 @@ background-color: var(--cor-hover);
         justify-content:center ;
     }
     .apresentacao__conteudo{
-        width: autos;
+        width: auto;
     }
     
 }
