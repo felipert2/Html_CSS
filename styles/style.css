@@ -143,4 +143,7 @@ background-color: var(--cor-hover);
     .apresentacao__conteudo{
         width: autos;
     }
+    .apresentacao__fotofelipe{
+        width: 20%;
+    }
 }
