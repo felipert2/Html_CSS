@@ -15,6 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 
 }
 
@@ -48,6 +49,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 
@@ -80,14 +82,14 @@ body {
     gap: 32px;
 }
 
-.apresentacao__links__link {
+.apresentacao__links__navegacao {
     
     
     display: flex;
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -125,4 +127,17 @@ background-color: var(--cor-hover);
     font-family: var(--font-secundaria);
     font-size:1.25rem;
     font-weight: 600;
+}
+
+@media(max-width:1200px){
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
+    .cabecalho{
+        padding: 10%;
+    }
+    .cabecalho__menu{
+        justify-content:center ;
+    }
+    
 }
