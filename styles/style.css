@@ -35,7 +35,7 @@ body {
 
 .cabecalho__menu__link{
     font-family: var(--font-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -52,14 +52,14 @@ body {
 
 
 .apresentacao__conteudo {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction:column ;
     gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 36px;
+    font-size: 2rem;
     font-family: var(--font-primaria);
 }
 
@@ -68,7 +68,7 @@ body {
 }
 
 .apresentacao__conteudo__texto {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--font-secundaria);
 }
 
@@ -90,7 +90,7 @@ body {
     width: 378px;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
@@ -102,22 +102,19 @@ body {
 .apresentacao__links__subtitulo {
     font-family: var(--font-primaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
-.apresentacao__foto_felipe {
-    
 
-    position:absolute;
-    left:30px;
-    width: 450px;
-    height: 550px;
-    left: 900px;
-    top: 170px;
-}
 
 .apresentacao__links__link:hover{
 background-color: var(--cor-hover);
+}
+
+.apresentacao__fotofelipe {
+    
+    width: 50%;
+    
 }
 
 .rodape{
@@ -126,6 +123,6 @@ background-color: var(--cor-hover);
     padding: 18px;
     text-align: center;
     font-family: var(--font-secundaria);
-    font-size: 20px;
+    font-size:1.25rem;
     font-weight: 600;
 }
